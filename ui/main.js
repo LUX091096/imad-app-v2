@@ -3,5 +3,5 @@ console.log('Loaded!');
 var img = document.getElementById('madi');
 img.onclick = function()
 {
-madi.style.marginRight = '100px';
+img.style.marginRight = '100px';
 };
