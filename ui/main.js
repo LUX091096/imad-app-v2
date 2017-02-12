@@ -7,7 +7,7 @@ button.onclick=function(){
             {
                 var counter=request.responseText;
                 var span=document.getElementbyId('count');
-                span.innerHTML=counter.tostring();
+                span.innerHTML=counter.toString();
             }
             
             request.open('GET','http://lux091096.imad.hasura.io/counter',true);
