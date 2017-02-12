@@ -10,9 +10,10 @@ button.onclick=function(){
                 span.innerHTML=counter.tostring();
             }
             
-            
+            request.open('GET','http://lux091096.imad.hasura.io/counter',true);
+            request.send(Null);
             
         }
         
-    }
-}
+    };
+};
