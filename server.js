@@ -4,6 +4,7 @@ var path = require('path');
 
 var app = express();
 app.use(morgan('combined'));
+
 var counter =0;
 app.get('/counter',function(req,res){
     counter=couter+1;
